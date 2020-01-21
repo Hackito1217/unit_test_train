@@ -1,0 +1,26 @@
+{
+  "name": "nakajo-conf-2",
+  "version": "0.0.1",
+  "description": "第2回 中条会 ユニットテストサンプル",
+  "main": "",
+  "scripts": {
+    "coverage": "npm test -- --coverage",
+    "test": "jest"
+  },
+  "author": "minden.co.jp",
+  "license": "UNLICENSED",
+  "private": true,
+  "babel": {
+    "presets": [
+      "power-assert"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-power-assert": "^3.0.0",
+    "jest": "^24.9.0",
+    "power-assert": "^1.6.1"
+  },
+  "dependencies": {
+    "luxon": "^1.21.3"
+  }
+}
