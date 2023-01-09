@@ -21,6 +21,6 @@
     "power-assert": "^1.6.1"
   },
   "dependencies": {
-    "luxon": "^1.21.3"
+    "luxon": "^2.5.2"
   }
 }
